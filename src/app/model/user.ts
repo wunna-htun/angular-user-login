@@ -1,5 +1,6 @@
-export interface task{
+export interface User{
     id:String;
     name:String;
-    password:boolean
+    email:String;
+    password:String;
 }

@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "email": "user@gmail.com",
+      "password": "$2a$10$21m6pYwxqjU3VLmlBEMDqOrCCnA9TxlwyZQrO7JTIA6xrFow4s9TC",
+      "name": "user",
+      "id": 3
+    },
+    {
+      "email": "ko@gmail.com",
+      "password": "$2a$10$H6kbD9RIIWloKVw/b6o4jONiANwmZdjx8Zk41Smrsz/36O6XHaXwW",
+      "name": "Ko Ko ",
+      "id": 4
+    }
+  ]
+}

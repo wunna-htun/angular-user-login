@@ -1,23 +1,25 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AuthGuard } from './core/auth.guard';
+import { LoginComponent } from './login/login.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { TaskCreateComponent } from './task-create/task-create.component';
-import { TaskListComponent } from './task-list/task-list.component';
-import { TaskUpdateComponent } from './task-update/task-update.component';
+import { UserAddComponent } from './user-add/user-add.component';
+import { UserlistComponent } from './userlist/userlist.component';
+
 
 const routes: Routes = [
 
   {
-    path:'task-list',component:TaskListComponent
+    path:'dashboard',component:UserlistComponent,canActivate: [AuthGuard]
   },
   {
-   path:'task-create',component:TaskCreateComponent 
+   path:'register',component:UserAddComponent 
   },
   {
-    path:'task-update',component:TaskUpdateComponent
+    path:'login',component:LoginComponent
   },
   {
-    path:'',redirectTo :'/task-list',pathMatch:'full',
+    path:'',redirectTo :'/dashboard',pathMatch:'full',
   },
   {
     path:'**',component:PageNotFoundComponent

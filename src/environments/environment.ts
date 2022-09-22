@@ -4,9 +4,8 @@
 
 export const environment = {
   production: false,
-  // baseUrl:'https://backend0001.herokuapp.com/api/v1',
   
-  baseUrl:'http://localhost:3000/api/v1/'
+  baseUrl:'http://localhost:3000'
 
 };
 

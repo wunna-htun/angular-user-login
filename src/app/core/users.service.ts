@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
+import { User } from '../model/user';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -11,23 +13,34 @@ export class UsersService {
   constructor(private httpClient: HttpClient) { }
 
 
-  getTaskList(){
-    return this.httpClient.get(`${this.url}`+`/tasks`)
+
+  register(user:any): Observable<Object> {
+    console.log("register service");
+    
+    return this.httpClient.post(`${this.url}`+`/register`,user)
+
   }
 
-  getTaskbyId(){
-   return this.httpClient.get(`${this.url}`+`/tasks`)
+
+
+
+
+
+  login(user:any): Observable<Object>{
+    return this.httpClient.post(`${this.url}`+`/login`,user)
+
   }
 
-  createTask(){
-
-    return this.httpClient.get(`${this.url}`+`/tasks`)
-  }
-  updateTask(){
-    return this.httpClient.get(`${this.url}`+`/tasks`)
+  getuserlist(){
+    return this.httpClient.get(`${this.url}`+`/users`)
   }
 
-  deleteTask(){
-    return this.httpClient.get(`${this.url}`+`/tasks`)
+  deleteUser(id:string){
+    return this.httpClient.delete(`${this.url}`+`/users/`+id)
+
   }
+
+
+
+
 }
