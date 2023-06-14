@@ -11,6 +11,30 @@
       "password": "$2a$10$H6kbD9RIIWloKVw/b6o4jONiANwmZdjx8Zk41Smrsz/36O6XHaXwW",
       "name": "Ko Ko ",
       "id": 4
+    },
+    {
+      "email": "per1@mail.com",
+      "password": "$2a$10$aVSqJQ1ymtqGtN3LSLnB5.1fxcwYhZ.3sKMVMd0euG4sWANvbOJzy",
+      "name": "per1",
+      "id": 6
+    },
+    {
+      "email": "per@mail.com",
+      "password": "$2a$10$2jP71aZ/e3LIOkLN5Ys8neOezfNA/kCRIWTGT36BAYcxMvTgXOYE6",
+      "name": "per2",
+      "id": 7
+    },
+    {
+      "email": "per3@mail.com",
+      "password": "$2a$10$YxVzlelLlFSEfYwnv8XioeWQKpZAX4U/7yBNYq6wGBwPEREkmmUsm",
+      "name": "per3@mail.com",
+      "id": 8
+    },
+    {
+      "email": "op@mail.com",
+      "password": "$2a$10$2B6sL.cWkdBCffr/Bxk3FeqpoVhxycmK41SD62QLbUJkV3Rz87.qe",
+      "name": "op@mail.com",
+      "id": 9
     }
   ]
 }
