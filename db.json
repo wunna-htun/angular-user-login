@@ -35,6 +35,18 @@
       "password": "$2a$10$2B6sL.cWkdBCffr/Bxk3FeqpoVhxycmK41SD62QLbUJkV3Rz87.qe",
       "name": "op@mail.com",
       "id": 9
+    },
+    {
+      "email": "test@example.com",
+      "password": "$2a$10$R9WoCW0hVWKJy6VQWVzkcelEsI7vkOpVmpBKh6gCfh7E/P1dHP1NK",
+      "name": "testuser",
+      "id": 10
+    },
+    {
+      "email": "test1@example.com",
+      "password": "$2a$10$fK.hpb/Iz76ATZSBWJWFjuHsBcgbEtBaOzLhfPRPC/yXNsW7Hi50K",
+      "name": "testuser1",
+      "id": 11
     }
   ]
 }

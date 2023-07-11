@@ -2,9 +2,7 @@
 # Task Manager
 
 ## Description
-
-
-
+Angular Sample project for crud and login and logout and authentication 
 
 
 
@@ -22,11 +20,17 @@ or
 
 
 
-## Unit Test 
+## E2E Test 
 
-npm install --save-dev protractor
-npm install  ts-node  
+>> library 
+* npm install -g protractor
+* npm install --save-dev protractor
+* npm install  ts-node  
+* npm i jasmine
+* npm i jasmine-spec-reporter
 
-protractor protractor.conf.js
+>> Run 
+* protractor protractor.conf.js
+* protractor  e2e\protractor.conf.js
 
 
